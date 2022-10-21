@@ -37,7 +37,7 @@
 }
 
 .estudante{
-    padding-top: 67px;
+    padding-top: 165px;
     padding-left: 500px;
     width: 650px;
     height: 650px;
@@ -51,7 +51,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
+    height:80px;
 }
 .inconeContato{
     width: 40px;
