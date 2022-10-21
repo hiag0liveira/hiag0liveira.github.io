@@ -51,6 +51,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
 }
 .inconeContato{
     width: 40px;
