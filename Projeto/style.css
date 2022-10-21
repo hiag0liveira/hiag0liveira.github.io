@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sanchez',normal;
+}
+.main-content{
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Acesso{
+    margin-top: -10%;
+    margin-left: 70%;
+    width: 500px;
+    height: 430px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.logo{
+    width: 250px;
+}
+aside{
+    width: 75%;
+}
+.estudante{
+    margin-left: 32%;
+    width: 1050px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    font-size: 24px;
+    width: 100%;
+    background: #36B1C4;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inconeContato{
+    width: 40px;
+    }
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonBlack{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 12px;
+    height: 22px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+#formularioLogin div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#formularioLogin input.logar{
+    background-color: #36B1C4;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    width:350px;
+    height: 60px;
+    font-size: 20px;
+    text-align: left;
+    padding: 3%;
+}
+input::placeholder {
+    color: white;
+}
+.esqueceuSenha{
+    text-decoration: none;
+    color: black;
+}
+.conheca{
+    padding-top: 30px;
+    width:280px;
+    margin-left: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px;
+    font-size: 20px;
+    text-align: center; 
+}
+.saibaMais{
+    text-decoration: none;
+}
