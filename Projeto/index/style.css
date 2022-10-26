@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sanchez',normal;
+}
+.main-content{
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.Acesso{
+    margin-top: -14%;
+    margin-left: 70%;
+    width: 500px;
+    height: 430px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.logo{
+    width: 250px;
+}
+
+.estudante{
+    padding-top: 260px;
+    padding-left: 500px;
+    width: 650px;
+    height: 650px;
+    display: block;
+}
+footer{
+    font-size: 24px;
+    width: 100%;
+    background: #36B1C4;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:65px;
+}
+.inconeContato{
+    width: 40px;
+    }
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonBlack{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 12px;
+    height: 22px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+#formularioLogin div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#formularioLogin input.logar{
+    background-color: #36B1C4;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    width:350px;
+    height: 60px;
+    font-size: 20px;
+    text-align: left;
+    padding: 3%;
+}
+input::placeholder {
+    color: white;
+}
+.esqueceuSenha{
+    text-decoration: none;
+    color: black;
+}
+.conheca{
+    padding-top: 30px;
+    width:340px;
+    margin-left: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap:17px;
+    font-size: 20px;
+    text-align: center; 
+}
+#saibaMais{
+    text-decoration: none;
+}
+@media(max-width:1535px){
+    .estudante{
+        padding-left: 350px;
+    }
+}
+@media(max-width:1350px){
+    .estudante{
+        padding-left: 150px;
+    }
+}
+@media(max-width:1200px){
+    .estudante{
+        padding-top: 150px;
+        padding-left: 350px;
+        width: 450px;
+        height: 450px;
+    }
+    .Acesso{
+        margin-top: 14%;
+        margin-left: 78%;
+        width: 400px;
+        height: 330px;
+    }
+    #formularioLogin input.logar{
+        width:290px;
+        height: 40px;  
+    }
+    .logo{
+        width: 180px;
+    }
+    footer{
+        font-size: 20px;
+    }
+    .inconeContato{
+        width: 30px;
+        }
+    footer ul {
+        gap: 70px;
+    }
+}
+@media(max-width:1067px){
+    .estudante{
+        padding-top: 220px;
+        padding-left: 280px;
+        width: 430px;
+        height: 430px;
+    }
+    .main-content{
+        height: 650px;
+    }
+}
+@media(max-width:940px){
+    .estudante{
+        padding-left: 200px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    .inconeContato{
+        width: 25px;
+        }
+    footer ul {
+        gap: 50px;
+    }
+}
+@media(max-width:840px){
+    .estudante{
+        display: none;
+    }
+    .main-content{
+        width: 100%;
+        gap: 35px;
+    }
+    .Acesso{
+        margin-top: 0%;
+        margin-left:0%;
+    }
+    .conheca{
+        padding-top:0px;
+        margin-left: 0%;
+        gap: 35px;
+    }
+}
+@media(max-width:800px){
+    footer{
+        height:100%;
+    }
+    footer ul {
+        gap: 20px;
+        padding: 15px;
+        flex-direction: column;
+    }
+}
+@media(max-width:450px){
+    .main-content{
+        margin-top: -120px;
+        width: 100%;
+        gap: 35px;
+        height: 630px;
+    }
+    .Acesso{
+        width: 340px;
+        height: 320px;
+    }
+    .conheca{
+        font-size: 16px;
+        gap: 25px;
+        height: 0px;
+        margin-bottom: -10px;
+    }
+    .logo{
+        width: 140px;
+    }
+}
