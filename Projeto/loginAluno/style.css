@@ -162,6 +162,7 @@ p{
     border-style:solid;
     border-width:2px;
     border-color: black;
+    font-size:24px;
 }
 @media(max-width:1145px){
     .setaUser{
