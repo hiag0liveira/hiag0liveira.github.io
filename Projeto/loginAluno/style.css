@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: url('../images/background (1).png');
+    width:100%;
+    font-family: 'Sanchez',normal;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 270px;
+    margin-bottom: 7px;
+}
+.parte1{
+    font-size: 35px;
+    margin-bottom: -20px;
+}
+.parte2{
+    font-size: 90px;
+}
+.TextoNavCenter{
+    margin-top: 1%;
+    margin-left:25%;
+    margin-bottom: 5px;
+}
+nav{
+    width: 100%;
+    background-color: #36B1C4;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Sanchez',normal;
+}
+nav a{
+    padding-right: 30px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.navBar{
+    width: 90%;
+    color: white;
+    font-size: 35px;
+    margin-left: 5px;
+}  
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+.inconesNav{
+    width: 35px;
+    margin-left: -20px;
+}
+.setaUser{
+    width: 35px;
+    transform: rotateY(180deg);
+}
+#nomeUser{
+    color: white;
+    width: 310px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: -235px;
+}
+.photoUser{
+    width: 200px;
+    margin-bottom: 8%;
+    margin-right: 70px;
+}
+.mainContent{
+    font-family: 'Sanchez',normal;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3%;
+}
+#section1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#section1 a{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    width:50%;
+    padding: 30px;
+    background-color: #36B1C4;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+.painelAvisos{
+    background: #e7e7e7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.parafusos{
+    width: 30px;
+    height: 30px;
+}
+.headerPainel{
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+    margin-top: 5px;
+}
+#titlePainel{
+    margin-top: 7px;
+}
+.footerPainel{
+    display: flex;
+    justify-content: center;
+    gap: 11.5%;
+}
+.footerPainel a{
+    color: black;
+}
+#footerPainel{
+    margin-top: -10px;
+}
+.itens{
+    border: solid;
+    border: 2px;
+    border-color: black;
+}
